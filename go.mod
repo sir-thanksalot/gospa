@@ -1,3 +1,3 @@
-module gitlab.com/sir-thanksalot/gospa
+module github.com/sir-thanksalot/gospa
 
 go 1.15

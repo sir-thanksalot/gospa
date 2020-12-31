@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	spa "gitlab.com/sir-thanksalot/gospa"
+	spa "github.com/sir-thanksalot/gospa"
 )
 
 func main() {

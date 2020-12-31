@@ -1,19 +1,20 @@
 # GoSpa
 
 Zero-dependency, standard library implementation of [`http.Handler`](https://golang.org/pkg/net/http/#Handler) for SPAs (pushState/client side routing).  
-What it does: 
- - Serve any existing files under `rootPath`
- - Serve `indexFile` otherwise
+What it does:
 
- ## Example
+- Serve any existing files under `rootPath`
+- Serve `indexFile` otherwise
 
- ```golang
- package main
+## Example
+
+```golang
+package main
 
 import (
 	"net/http"
 
-	spa "gitlab.com/sir-thanksalot/gospa"
+	spa "github.com/sir-thanksalot/gospa"
 )
 
 func main() {
@@ -21,4 +22,4 @@ func main() {
 	http.Handle("/", spaHandler)
 	http.ListenAndServe(":5000", nil)
 }
- ```
+```
